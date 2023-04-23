@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/Normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <!-- start of header -->
+    <div class="container">
+      <header>
+        Quiz
+        <div class="time">
+          Time Left : <span class="min">10</span>:<span class="sec">00</span>
+        </div>
+      </header>
+      <div class="quest-nums">
+        Qusetion <span class="current-quest"></span> of
+        <span class="total"></span>
+      </div>
+      <div class="quest-content">
+        <h4 class="question">w?</h4>
+        <div class="answers">
+          <label class="label-div"> </label>
+          <label class="label-div"> </label>
+          <label class="label-div"> </label>
+          <label class="label-div"> </label>
+        </div>
+        <div class="sub">
+          <button class="submit">Next</button>
+        </div>
+      </div>
+    </div>
+    <!-- 
+      - Create JSON Object For Questions
+      - Start Creating html markup 
+      - Add dummy Data
+      - Create The Styling
+      - Fetch Number of Questions From JSON Object
+      - Show Questions Count + Questions Category
+      - Show The Number OF Bullets 
+      - Set The Number For The Right and Wrong Answers
+      - Create Countdown Timer
+      - Fetch The Questions From The Json Object
+      - Show the First Question
+      - Check Answer Then Show The Next One
+      - If The Time End Mark The Question aAs Wrong And Show The Next One
+      - Add Class On Bullet After Answering The Question
+      - If The Questions End Show The Result
+    -->
+    <script src="main.js"></script>
+    <script src="questions.json"></script>
+  </body>
+</html>
